@@ -1,6 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -8,6 +9,10 @@
 
   <ItemGroup>
     <PackageReference Include="FarmCraft.Core" Version="0.0.2-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FarmCraft.Notifications.Data\FarmCraft.Notifications.Data.csproj" />
   </ItemGroup>
 
 </Project>
